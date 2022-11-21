@@ -1,0 +1,44 @@
+.direction__sub > #nav2:after{
+	bottom: -3px;
+}
+
+.Tech_page--screen1{
+	height: calc(100vh - 100px);
+	display: flex;
+}
+.Tech_page--screen1--word{
+	flex: 1;
+	margin-top: 10vh;
+}
+.Tech_page--screen1--word__center{
+	width: 35vw;
+	margin-left: 50%;
+	transform: translateX(-35%);
+}
+.Tech_page--screen1--word h3{
+	text-align: center;
+	margin-top: 15vh;
+	font-size: 1.4vw;
+	color: #fff;
+}
+.Tech_page--screen1--photo{
+	margin-top: 15vh;
+	flex: 1;
+}
+.Tech_page--screen1--photo img{
+	width: 60%;
+	margin-left: 50%;
+	transform: translateX(-65%);
+}
+
+
+
+.heart{
+	margin-left: 500px;
+}
+canvas{
+	position: relative;
+	border-radius: 30px;
+	left: 12.5%;
+}
+

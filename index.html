@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Memaster</title>
+	<link rel="stylesheet" type="text/css" href="./asset/css/general.css">
+	<link rel="stylesheet" type="text/css" href="./asset/css/home.css">
+	<link rel="stylesheet" type="text/css" href="./asset/css/responsive.css">
+	<script src="http://kit.fontawesome.com/1147679ae7.js"></script>
+</head>
+<body>
+	<!-- Header -->
+	<header id="uptop">
+		<div class="logo_page">
+			<i class="logo_page__modify" href="">
+				<img src="./asset/Photo/logo_page.png">
+				<h1>Memaster</h1>
+			</i>
+
+		</div>
+		<div class="direction">
+			<ul class="direction__sub">
+				<li id="nav1"><a href="index.html" id="current_namepage">Home</a></li>
+				<li class="tech" id="nav2" href="#">
+					<i id="diff">Technology</i>
+					<ul class="tech--show">
+						<li class="techBTN"><a href="tech.html">Automation</a></li>
+						<li class="techBTN"><a href="tech.html">Computer Science</a></li>
+					</ul>
+				</li>
+				<li id="nav3"><a href="">Economy</a></li>
+				<li id="nav4"><a href="">Language</a></li>
+				<li id="nav5"><a href="">About</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!-- Home page -->
+	<div class="Home_page">
+		<div class="WelcomeSection">
+			<div class="WelcomeSection--word">
+				<h1 class="WelcomeSection--word--1">Welcome little one!!</h1>
+				<h2 class="WelcomeSection--word--2">Join with us regularly to improve yourself</h2>
+			</div>
+		</div>
+		<div class="WelcomeSection" id="WelcomeSection--btn">
+			<button id="feedback" onclick="feedback()">Leave feedback</button>
+			<button id="report" onclick="report()">Report an incident</button>
+		</div>
+	
+		<div class="gif">
+			<img src="./asset/Photo/cute.gif" border="0" alt="Photobucket">
+		</div>
+
+		<div class="up offcreen">
+			<a href="#uptop">
+				<img src="./asset/Photo/up.png" alt="photo">
+			</a>
+		</div>
+	
+	
+		<div class="Mission CenterLocation appear">
+			<h1>Our Mission</h1>
+			<h2> " To create an environment of general knowlegde that helps people who are studying or even working can approach easily to the new horizons. "</h2>
+		</div>
+
+		<div class="Cmt CenterLocation appear">
+			<h1>What do our users think?</h1>
+			<div class="CenterLocation--1">
+				<button class="cmt--return"></button>
+				<div class="Cmt--frame__layer1">
+					<div class="Cmt--frame__layer2">
+						<img id="Authorphoto">
+						<div class="cmt-des">
+							<h2 class="Cmt--word"></h2>
+							<h2 class="Author--word"></h2>
+						</div>
+					</div>
+				</div>
+				<button class="cmt--next"></button>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<div class="footerCt">
+			<div class="footerCt--clm__img ">
+				<img src="./asset/Photo/logo_page.png">
+			</div>
+			<div class="footerCt--clm">
+				<h2>Memaster</h2>
+				<a href="">Home</a>
+				<a href="">Mission</a>
+				<a href="">Comment</a>
+			</div>
+			<div class="footerCt--clm">
+				<h2>Help</h2>
+				<a href="">Contact us</a>
+				<a href="">Mission</a>
+				<a href="">FAQ</a>
+			</div>
+			<div class="footerCt--clm">
+				<h2>Legal</h2>
+				<a href="">Terms and Conditions</a>
+				<a href="">Privacy policy</a>
+			</div>
+		</div>
+
+		<div class="footer--word">
+			<p>2022 © Oliver Tran director</p>
+			<div class="icon-contact">
+				<div  class="icon-container">
+					<div>
+						<form action="https://www.facebook.com/tranbathaan/">
+							<button class="circle"><div class="icon icon-facebook"><i class="fab fa-facebook"></i></div></button>
+						</form>
+					</div>
+					<div>
+						<form action="https://twitter.com/TrnThn81846550">
+							<button class="circle"><div class="icon icon-twitter"><i class="fab fa-twitter"></i></div></button>
+						</form>
+					</div>
+					<div>
+						<form action="https://www.instagram.com/tranbathan.02/">
+							<button class="circle"><div class="icon icon-instagram"><i class="fab fa-instagram"></i></div></button>
+						</form>
+					</div>
+					<div>
+						<form action="https://www.youtube.com/">
+							<button class="circle"><div class="icon icon-youtube"><i class="fab fa-youtube"></i></div></button>
+						</form>
+					</div>
+					<div>
+						<form action="https://www.telegram.com/">
+							<button class="circle"><div class="icon icon-telegram"><i class="fa fa-telegram"></i></div></button>
+						</form>
+					</div>
+					<div>
+						<form action="https://www.tiktok.com/">
+							<button class="circle"><div class="icon icon-tiktok"><i class="fab fa-tiktok"></i></div></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- report -->
+	<div  class="incidentWindow ">
+		<div class="incidentWindow--box">
+			<div class="incident--header">
+				<h2>Feedback</h2>
+				<i></i>
+			</div>
+			<div class="incident--footer">
+				<form>
+					<select class="incident--footer--part">
+						<option class="incident--footer--part--select-items">Home</option>
+						<option class="incident--footer--part--select-items">Technology</option>
+						<option class="incident--footer--part--select-items">Economy</option>
+						<option class="incident--footer--part--select-items">Language</option>
+					</select>
+					<br>
+					<input class="incident--footer--part type="text" id="fname" name="fname" value="Enter name">
+					<br>
+					<input class="incident--footer--part type="text" id="femail" name="femail" value="Enter email">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>

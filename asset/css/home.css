@@ -1,0 +1,245 @@
+
+/* Welcome text */
+.WelcomeSection{
+	background-color: rgba(0, 0, 0, 0.2);
+	height: calc(100vh - 100px);
+	display: flex;
+}
+.WelcomeSection--word{
+	margin: auto;
+	margin-top: 30vh;
+	text-align: center;
+}
+.WelcomeSection--word h1,h2{
+	color: #ffffff;
+}
+.WelcomeSection--word h1{
+	position: relative;
+	top: 20px;
+	opacity: 0;
+	transition: all ease 0.5s;
+	font-size: 50px;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Praise', cursive;
+}
+.WelcomeSection--word h2{
+	position: relative;
+	top: 20px;
+	opacity: 0;
+	transition: all ease 1s;
+	margin-top: 20px;
+	font-size: 27px;
+}
+
+/* button for feedback and incident */
+#WelcomeSection--btn{
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	user-select: none;
+}
+#WelcomeSection--btn button{
+	position: relative;
+	top: -20vh;
+	width: 150px;
+	height: 45px;
+	border-radius: 15px;
+	border: 1px solid #5a0184;
+	color: #ffffff;
+	background-color: #000020;
+	cursor: pointer;
+	transition: 1s ease all;
+}
+#WelcomeSection--btn button:hover{
+	box-shadow: 0 0 16px rgba(0,0,0,0.8);
+}
+#report{
+	border: 1px solid #ff4f4f !important;
+	position: relative;
+	left: 300px;
+	opacity: 0;
+}
+#feedback{
+	position: relative;
+	right: 300px;
+	opacity: 0;
+}
+
+/* cute gif */
+.gif{
+	transition: all ease 1s;
+	width: 10%;
+	position: fixed;
+	top: 500px;
+	left: 55px;
+}
+.gif img{
+	width: 100%;
+}
+
+/* up to top */
+.up{
+	position: fixed;
+	top: 85%;
+	left: 93%;
+	transition: all ease 0.5s;
+	z-index: 1;
+}
+.up img{
+	width: 70%;
+}
+
+/* Mission */
+.CenterLocation{
+	margin-left: 50%;
+}
+
+.Mission{
+	margin-bottom: 35vh;
+}
+.Mission h1{
+	font-size: 2.3rem;
+	margin-top: 25vh;
+	position: relative;
+	left: -50%;
+	text-align: center;
+	color: #BCB2FF;
+}
+.Mission h2{
+	margin-top: 50px;
+	position: relative;
+	left: -50%;
+	text-align: center;
+	font-size: 1.4vw;
+	line-height: 33px;
+}
+
+.CenterLocation--1{
+	display: flex;
+	position: relative;
+	left: -50%;
+	margin: 50px -20%;
+}
+.Cmt button{
+	flex: 1;
+	height: 2.7vw;
+	margin: auto;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border: none;
+}
+.cmt--return{
+	background-image: url(../Photo/whitelesssign.png);
+	transition: all ease 0.5s;
+}
+.cmt--next{
+	background-image: url(../Photo/whitegreatersign.png);
+	transition: all ease 0.5s;
+}
+.cmt--return:hover{
+	cursor: pointer;
+}
+.cmt--next:hover{
+	cursor: pointer
+}
+.Cmt h1{
+	position: relative;
+	left: -50%;
+	text-align: center;
+	color: #BCB2FF;
+}
+.Cmt h2{
+	position: relative;
+	color: #eaecf0;
+	font-size: 1.3vw;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.Cmt .Cmt--frame__layer1{
+	background-color: #2D3241;
+	flex: 20;
+	width: 70vw;
+	height: 50vh;
+	min-height: 300px;
+	display: flex;
+	border: 1px solid #505278;
+	border-radius: 50px;
+}
+.Cmt .Cmt--frame__layer2{
+	display: flex;
+	margin: 30px 5%;
+	text-align: center;
+}
+
+.Cmt .Cmt--frame__layer2 img{
+	height: calc(70px + 8vw);
+	margin: auto 5%;
+	border-radius: 40px;
+}
+
+.Cmt--word{
+	height: 35%;
+	margin: 50px 20px;
+}
+
+
+
+/* -------------------------------- */
+.incidentWindow{
+	display: none;
+}
+.incidentWindow__active{
+	display: block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.incidentWindow--box{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 28vw;
+	height: 88vh;
+	background-color: #2d3241;
+	border-radius: 15px;
+}
+.incident--header{
+	height: 10%;
+	border-bottom: 1px solid #505278;
+}
+.incident--footer--part{
+	width: 85%;
+	height: 40px;
+	margin: 10px 7% 10px 7%;
+	color: #fff;
+	background-color: transparent;
+	border-radius: 5px;
+}
+.incident--footer--part--select-items{
+	background-color: #2d3241;
+
+}
+
+
+/*incidentWindow
+.incidentWindow{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+*/
+/* Expanding page just for visible being 
+
+p{
+	height: 400px;
+}
+*/
