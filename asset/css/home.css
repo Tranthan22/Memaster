@@ -113,21 +113,26 @@
 	font-size: 1.4vw;
 	line-height: 33px;
 }
-
+.cmt{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
 .CenterLocation--1{
 	display: flex;
 	position: relative;
-	left: -50%;
-	margin: 50px -20%;
+	width: 70vw;
+	margin: auto;
+	margin-top: 10vh;
 }
 .Cmt button{
-	flex: 1;
-	height: 2.7vw;
-	margin: auto;
+	flex: 2;
+	height: 100%;
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	border: none;
+	font-size: 10px;
 }
 .cmt--return{
 	background-image: url(../Photo/whitelesssign.png);
@@ -145,7 +150,6 @@
 }
 .Cmt h1{
 	position: relative;
-	left: -50%;
 	text-align: center;
 	color: #BCB2FF;
 }
@@ -161,8 +165,6 @@
 	flex: 20;
 	width: 70vw;
 	height: 50vh;
-	min-height: 300px;
-	display: flex;
 	border: 1px solid #505278;
 	border-radius: 50px;
 }
