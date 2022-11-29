@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+:root{
+	font-size: 16px;
+}
 html{
 	scroll-behavior: smooth;
 	width: 100vw;
 	height: fit-content;
 	overflow-x: hidden;
+	font-size: 16px;
 }
 
 
@@ -90,7 +93,7 @@ header{
 .direction__sub > #nav1:after{
 	content: "";
 	position: absolute;
-	background-color: #333445;
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 	height: 3px;
 	width: 0;
 	left: 0;
@@ -101,7 +104,7 @@ header{
 .direction__sub > #nav2:after{
 	content: "";
 	position: absolute;
-	background-color: #ff4f4f;
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 	height: 3px;
 	width: 0;
 	left: 0;
@@ -111,7 +114,7 @@ header{
 .direction__sub > #nav3:after{
 	content: "";
 	position: absolute;
-	background-color: #ff4f4f;
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 	height: 3px;
 	width: 0;
 	left: 40%;
@@ -121,7 +124,7 @@ header{
 .direction__sub > #nav4:after{
 	content: "";
 	position: absolute;
-	background-color: #ff4f4f;
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 	height: 3px;
 	width: 0;
 	left: 60%;
@@ -131,7 +134,7 @@ header{
 .direction__sub > #nav5:after{
 	content: "";
 	position: absolute;
-	background-color: #ff4f4f;
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 	height: 3px;
 	width: 0;
 	left: 80%;
@@ -333,5 +336,3 @@ header{
 	position: relative;
 	left: 50%;
 }
-
-
