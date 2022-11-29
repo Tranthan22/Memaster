@@ -1,12 +1,59 @@
 /* responsive*/
-@media only screen and (max-width: 800px) {
-	
-}
 @media only screen and (max-width: 1100px) {
 	.logo_page i h1{
 		display: none;
 	}
 	.logo_page{
 		flex: 2;
+	}
+}
+
+
+@media only screen and (max-width: 900px) {
+	.Mission h1{
+		font-size: 4vw;
+	}
+	.Mission h2{
+		font-size: 2vw;
+
+	}
+	.Cmt .Cmt--frame__layer1{
+		height: 40vh;
+	}
+}
+
+
+@media only screen and (max-width: 800px) {
+	.direction{
+		display: none;
+	}
+	.logo_page{
+		width: 100vw;
+		margin: auto;
+	}
+	.logo_page i{
+		display: flex;
+		justify-content: center;
+	}
+	.logo_page img{
+		left: 0;
+		margin-left: 0;
+	}
+	.Mission h1{
+		font-size: 7vw;
+
+	}
+	.Mission h2{
+		font-size: 3vw;
+
+	}
+	.CenterLocation--1{
+		width: 100vw;
+	}
+	.Cmt .Cmt--frame__layer1{
+		height: 35vh;
+	}
+	.up img{
+		width: 110%;
 	}
 }
